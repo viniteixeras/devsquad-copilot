@@ -2,7 +2,7 @@
 name: devsquad.plan.context
 description: Planning worker that loads and summarizes project context (spec, envisioning, ADRs, related specs). Invoked as a sub-agent by devsquad.plan. Do not use directly.
 user-invocable: false
-tools: ['read/readFile', 'vscode/askQuestions', 'search/listDirectory', 'search/textSearch', 'search/fileSearch']
+tools: ['read/readFile', 'vscode/askQuestions', 'search/listDirectory', 'search/textSearch', 'search/fileSearch', 'github/*', 'ado/*', 'azure/*', 'microsoft-learn/*', 'drawio/*', 'context7/*', 'playwright/*', 'markitdown/*', 'chrome-devtools/*', 'workiq/*']
 ---
 
 ## Role

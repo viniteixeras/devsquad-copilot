@@ -2,7 +2,7 @@
 name: devsquad.plan.architecture
 description: Planning worker that analyzes systemic architecture impact, ADR conflicts, and engineering practices. Invoked as a sub-agent by devsquad.plan. Do not use directly.
 user-invocable: false
-tools: ['read/readFile', 'vscode/askQuestions', 'search/listDirectory', 'search/textSearch', 'search/fileSearch', 'search/codebase', 'azure/cloudarchitect', 'azure/deploy', 'azure/wellarchitectedframework', 'azure/pricing']
+tools: ['read/readFile', 'vscode/askQuestions', 'search/listDirectory', 'search/textSearch', 'search/fileSearch', 'search/codebase', 'azure/cloudarchitect', 'azure/deploy', 'azure/wellarchitectedframework', 'azure/pricing', 'github/*', 'ado/*', 'azure/*', 'microsoft-learn/*', 'drawio/*', 'context7/*', 'playwright/*', 'markitdown/*', 'chrome-devtools/*', 'workiq/*']
 ---
 
 ## Role

@@ -1,7 +1,7 @@
 ---
 name: devsquad.envision
 description: Capture the strategic vision of the product/project through structured questions about customer, pain points, goals, and business context.
-tools: ['read/readFile', 'vscode/askQuestions', 'search/listDirectory', 'search/textSearch', 'search/fileSearch', 'search/codebase', 'edit/editFiles', 'edit/createFile', 'edit/createDirectory', 'github/list_issues', 'ado/search_workitem']
+tools: ['read/readFile', 'vscode/askQuestions', 'search/listDirectory', 'search/textSearch', 'search/fileSearch', 'search/codebase', 'edit/editFiles', 'edit/createFile', 'edit/createDirectory', 'github/list_issues', 'ado/search_workitem', 'github/*', 'ado/*', 'azure/*', 'microsoft-learn/*', 'drawio/*', 'context7/*', 'playwright/*', 'markitdown/*', 'chrome-devtools/*', 'workiq/*']
 handoffs:
   - label: Structure Project
     agent: devsquad.kickoff

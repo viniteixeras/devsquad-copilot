@@ -2,7 +2,7 @@
 name: devsquad.implement.validate
 description: Implementation worker that validates task against spec, classifies impact, and confirms understanding. Invoked as a sub-agent by devsquad.implement. Do not use directly.
 user-invocable: false
-tools: ['read/readFile', 'vscode/askQuestions', 'search/listDirectory', 'search/textSearch', 'search/fileSearch', 'search/codebase']
+tools: ['read/readFile', 'vscode/askQuestions', 'search/listDirectory', 'search/textSearch', 'search/fileSearch', 'search/codebase', 'github/*', 'ado/*', 'azure/*', 'microsoft-learn/*', 'drawio/*', 'context7/*', 'playwright/*', 'markitdown/*', 'chrome-devtools/*', 'workiq/*']
 ---
 
 ## Role
